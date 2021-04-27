@@ -22,6 +22,8 @@
       "disk_discard": "unmap",
       "iso_url": "{{user `iso_url`}}",
       "iso_checksum": "{{user `iso_checksum`}}",
+      "memory": 2048,
+      "cpus": 2,
       "ssh_username": "root",
       "ssh_password": "vagrant",
       "ssh_wait_timeout": "60m",
